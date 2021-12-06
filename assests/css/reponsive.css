@@ -1,0 +1,80 @@
+/* ================= PC ==================== */
+@media (min-width: 64em){
+    header .nav-bar__btn{
+        display: none;
+    }
+}
+/* ================= PC ==================== */
+
+/* =============== Tablet ================== */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .m-padding-lr-16{
+        padding: 0 16px;
+    }
+    
+    header .nav-bar__btn{
+        display: none;
+    }
+}
+/* =============== Tablet ================== */
+
+/* =============== Mobile ================== */
+@media (max-width: 46.1875em){
+    .m-padding-lr-16{
+        padding: 0 16px;
+    }
+
+    header{
+        overflow: hidden;
+    }
+
+    header .search__btn{
+        display: none;
+    }
+
+    #nav li{
+        display: block;
+    }
+
+    #band .member-item{
+        flex-basis: 100%;
+    }
+
+    #band .member-item .member-img{
+        width: 240px;
+        margin-bottom: 30px;
+    }
+
+    #tour .tickets-list .ticket-item{
+        flex-basis: 100%;
+        margin-bottom: 16px;
+    }
+
+    #tour .about-ticket .buy-ticket-btn{
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    #contact .contact-info{
+        margin-bottom: 25px;
+    }
+
+    #contact .contact-info p{
+        font-size: 17px;
+    }
+
+    #contact .contact-info, .contact-form{
+        flex-basis: 100%;
+    }
+
+    #contact .contact-form .form-item{
+        flex-basis: 100%;
+        font-size: 17px;
+        padding: 15px 8px;
+    }
+
+    #contact .contact-form .send-contact-btn{
+        padding: 15px 20px;
+    }
+}
+/* =============== Mobile ================== */
